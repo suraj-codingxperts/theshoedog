@@ -1,5 +1,1 @@
-<?php
-
-echo "welcome to test file";
-
-?>
+this is test file
