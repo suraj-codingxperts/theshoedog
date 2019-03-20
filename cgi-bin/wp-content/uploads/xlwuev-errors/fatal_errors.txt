@@ -1,0 +1,6 @@
+
+Mar 12, 2019 11.28.52: 1552390132 : Class 'WPR_MailChimp' not found
+
+Mar 12, 2019 11.32.41: 1552390361 : Class 'WPR_MailChimp' not found
+
+Mar 12, 2019 11.44.29: 1552391069 : Class 'WPR_MailChimp' not found

@@ -1,0 +1,40 @@
+[07-Mar-2019 05:58:58 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[07-Mar-2019 07:18:12 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/theshvgc/public_html/wp-includes/wp-db.php on line 2007
+[07-Mar-2019 07:18:12 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/theshvgc/public_html/wp-includes/wp-db.php on line 2007
+[07-Mar-2019 07:18:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=36819 in /home/theshvgc/public_html/wp-includes/wp-db.php on line 2007
+[12-Mar-2019 11:28:52 UTC] PHP Fatal error:  Class 'WPR_MailChimp' not found in /home/theshvgc/public_html/wp-content/plugins/wp-registration/inc/classes/class.register.php on line 164
+[12-Mar-2019 11:32:41 UTC] PHP Fatal error:  Class 'WPR_MailChimp' not found in /home/theshvgc/public_html/wp-content/plugins/wp-registration/inc/classes/class.register.php on line 164
+[12-Mar-2019 11:44:29 UTC] PHP Fatal error:  Class 'WPR_MailChimp' not found in /home/theshvgc/public_html/wp-content/plugins/wp-registration/inc/classes/class.register.php on line 164
+[14-Mar-2019 15:36:12 UTC] WordPress database error Table 'wp_auction_coupons' already exists for query  CREATE TABLE `wp_auction_coupons` (
+					`id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+					`coupon_name` VARCHAR( 255 ) NOT NULL ,
+					`coupon_solid_reduction` VARCHAR( 255 ) NOT NULL,
+					`coupon_percent_reduction` VARCHAR( 255 ) NOT NULL,
+					
+					`ending` VARCHAR( 255 ) NOT NULL,
+					`coupon_code` VARCHAR( 255 ) NOT NULL ,
+					`datemauctione` VARCHAR( 255 ) NOT NULL ,
+					`featured_free` INT NOT NULL DEFAULT '0',
+					`pause` INT NOT NULL DEFAULT '0'
+					) ENGINE = MYISAM  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/AuctionTheme/functions.php'), get_template_part, locate_template, load_template, require('/themes/AuctionTheme/lib/first_run.php')
+[14-Mar-2019 15:36:12 UTC] WordPress database error Table 'wp_auction_custom_fields' already exists for query  CREATE TABLE `wp_auction_custom_fields` (
+					`id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+					`name` VARCHAR( 255 ) NOT NULL ,
+					`tp` VARCHAR( 48 ) NOT NULL ,
+					`ordr` INT NOT NULL ,
+					`cate` VARCHAR( 255 ) NOT NULL ,
+					`pause` INT NOT NULL DEFAULT '1'
+					) ENGINE = MYISAM  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/AuctionTheme/functions.php'), get_template_part, locate_template, load_template, require('/themes/AuctionTheme/lib/first_run.php')
+[14-Mar-2019 15:36:12 UTC] WordPress database error Table 'wp_auction_custom_options' already exists for query  CREATE TABLE `wp_auction_custom_options` (
+					`id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+					`valval` VARCHAR( 255 ) NOT NULL ,
+					`ordr` INT( 11 ) NOT NULL ,
+					`custid` INT NOT NULL
+					) ENGINE = MYISAM  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/AuctionTheme/functions.php'), get_template_part, locate_template, load_template, require('/themes/AuctionTheme/lib/first_run.php')
+[14-Mar-2019 15:36:12 UTC] WordPress database error Table 'wp_auction_custom_relations' already exists for query  CREATE TABLE `wp_auction_custom_relations` (
+					`id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+					`custid` BIGINT NOT NULL ,
+					`catid` BIGINT NOT NULL
+					) ENGINE = MYISAM  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/AuctionTheme/functions.php'), get_template_part, locate_template, load_template, require('/themes/AuctionTheme/lib/first_run.php')
+[14-Mar-2019 15:36:14 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/theshvgc/public_html/wp-content/themes/AuctionTheme/lib/admin_menu.php on line 165
+[14-Mar-2019 15:36:14 UTC] PHP Warning:  file_get_contents(http://sitemile.com/?theme_type=auction&amp;site_optimize=https%3A%2F%2Ftheshoedog.co.za): failed to open stream: no suitable wrapper could be found in /home/theshvgc/public_html/wp-content/themes/AuctionTheme/lib/admin_menu.php on line 165
